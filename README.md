@@ -415,7 +415,7 @@ deployments the moment a rollout or smoke test fails.
 
 ---
 
-## 10. Troubleshooting Reference (common real-world issues)
+## 10. Troubleshooting Reference 
 
 | Symptom | Cause | Fix |
 |---|---|---|
