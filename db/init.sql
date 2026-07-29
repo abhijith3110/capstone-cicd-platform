@@ -3,4 +3,6 @@ CREATE TABLE IF NOT EXISTS items (
   name VARCHAR(255) NOT NULL
 );
 
+
+
 INSERT INTO items (name) VALUES ('Sample Item 1'), ('Sample Item 2'), ('Sample Item 3');

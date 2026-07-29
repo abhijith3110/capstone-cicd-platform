@@ -55,5 +55,4 @@ app.get('/api/items', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Backend API listening on port ${PORT}`);
 });
-
 module.exports = app;

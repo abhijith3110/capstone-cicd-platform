@@ -5,6 +5,7 @@ metadata:
   namespace: capstone1
   labels:
     app: backend
+    
 spec:
   replicas: 3
   revisionHistoryLimit: 5

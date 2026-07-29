@@ -5,7 +5,6 @@ graph TB
     subgraph Dev["Developer Workstation"]
         DEV[Developer] -->|git push| GH
     end
-
     subgraph SCM["Source Control"]
         GH[(GitHub Repository)]
     end

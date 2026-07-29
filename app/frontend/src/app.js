@@ -9,7 +9,6 @@ fetch(`${API_BASE}/version`)
   .catch(() => {
     document.getElementById('version-box').innerText = 'Backend unreachable';
   });
-
 fetch(`${API_BASE}/items`)
   .then((r) => r.json())
   .then((items) => {
