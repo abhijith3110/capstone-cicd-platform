@@ -1,4 +1,4 @@
-# Capstone Project 1 — Enterprise CI/CD Platform for a Three-Tier Web Application (AWS Edition)
+# Capstone Project 1 — Enterprise CI/CD Platform for a Three-Tier Web Application 
 
 Automates the full software delivery lifecycle: GitHub → Jenkins (EC2) → SonarQube (EC2) → Docker →
 Amazon ECR → self-managed Kubernetes on EC2 (Kubespray), with zero-downtime rolling updates and
