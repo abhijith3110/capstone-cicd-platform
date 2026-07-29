@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: capstone1
+  labels:
+    environment: dev
+    project: capstone-cicd-platform
