@@ -1,4 +1,4 @@
-# Capstone Project 1 — Enterprise CI/CD Platform for a Three-Tier Web Application (AWS Edition)
+# Capstone Project 1 — Enterprise CI/CD Platform for a Three-Tier Web Application 
 
 Automates the full software delivery lifecycle: GitHub → Jenkins (EC2) → SonarQube (EC2) → Docker →
 Amazon ECR → self-managed Kubernetes on EC2 (Kubespray), with zero-downtime rolling updates and
@@ -70,9 +70,6 @@ git checkout -b feature/JIRA-101-items-endpoint develop
 3. Reviewer approves once checks are green.
 4. Merge → triggers the pipeline → builds, pushes to ECR, deploys.
 5. Periodically PR `develop` → `main` for a prod release.
-
-> ⚠️ Never commit AWS keys, kubeconfig files, or `.env` files. GitHub's push protection will usually
-> catch AWS key patterns, but don't rely on it — keep the `.gitignore` in this repo as-is.
 
 ---
 
@@ -418,7 +415,7 @@ deployments the moment a rollout or smoke test fails.
 
 ---
 
-## 10. Troubleshooting Reference (common real-world issues)
+## 10. Troubleshooting Reference 
 
 | Symptom | Cause | Fix |
 |---|---|---|
