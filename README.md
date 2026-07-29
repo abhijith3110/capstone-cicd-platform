@@ -71,9 +71,6 @@ git checkout -b feature/JIRA-101-items-endpoint develop
 4. Merge → triggers the pipeline → builds, pushes to ECR, deploys.
 5. Periodically PR `develop` → `main` for a prod release.
 
-> ⚠️ Never commit AWS keys, kubeconfig files, or `.env` files. GitHub's push protection will usually
-> catch AWS key patterns, but don't rely on it — keep the `.gitignore` in this repo as-is.
-
 ---
 
 ## 2. AWS Infrastructure Setup
